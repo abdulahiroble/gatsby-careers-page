@@ -16,15 +16,22 @@ const Title = styled.h1`
 `;
 
 const Container = styled.div`
-  margin: 2rem 4rem;
-  display: flex;
+  margin-left: auto;
+  max-width: 100%;
+  /* margin: 2rem 4rem;
+  display: flex; */
 `;
 
 const Content = styled.div`
-  padding: 2rem;
+  /* padding: 2rem;
   margin-right: 3rem;
   width: 48%;
   text-align: justify;
+  background-color: #ffffff; */
+
+  padding-left: 3em;
+  margin-right: 3rem;
+  width: 80%;
   background-color: #ffffff;
 
   h3 {

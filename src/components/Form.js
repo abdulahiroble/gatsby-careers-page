@@ -57,7 +57,7 @@ const SubmitButton = styled.button`
 
 const Form = () => (
   <Container>
-    <h2
+    {/* <h2
       css={`
         font-weight: 600;
         letter-spacing: 1.2;
@@ -65,24 +65,22 @@ const Form = () => (
       `}
     >
       APPLY NOW
-    </h2>
+    </h2> */}
     <form
       netlify
       css={`
-        padding: 2rem 4rem;
+        padding-left: 6em;
+        margin-right: 3rem;
+        width: 100%;
       `}
     >
       <FormField>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Navn</label>
         <Input name="name" id="name" autoComplete="name" />
       </FormField>
       <FormField>
         <label htmlFor="email">Email</label>
         <Input name="email" id="email" type="email" autoComplete="email" />
-      </FormField>
-      <FormField>
-        <label htmlFor="notice-period">Notice Period</label>
-        <Input name="notice-period" id="notice-period" type="number" />
       </FormField>
       <FileUpload />
       <FormField>
