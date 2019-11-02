@@ -1,6 +1,6 @@
 ---
 title: 'Front end developer'
-date: '2018-12-26T22:12:03.284Z'
+date: '2019-11-02T22:12:03.284Z'
 dept: 'IMPALA'
 location: 'Copenhagen'
 published: true

@@ -16,7 +16,7 @@ const FileUpload = () => (
     <label htmlFor="resume">
       <p>Resume</p>
       <UploadArea>
-        <p>Upload File</p>
+        <p>Upload Fil</p>
       </UploadArea>
       <input
         type="file"
