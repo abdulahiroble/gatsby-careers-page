@@ -1,8 +1,8 @@
 ---
-title: 'Business Guy'
+title: 'Front end developer'
 date: '2018-12-26T22:12:03.284Z'
-dept: 'business'
-location: 'Mumbai'
+dept: 'IMPALA'
+location: 'Copenhagen'
 published: true
 ---
 

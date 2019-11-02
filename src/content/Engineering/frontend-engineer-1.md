@@ -1,8 +1,8 @@
 ---
-title: 'Frontend Engineer - 1'
+title: 'Frontend Engineer'
 date: '2018-12-26T22:12:03.284Z'
-dept: 'engineering'
-location: 'Bangalore'
+dept: 'YOUSEE'
+location: 'Copenhagen'
 published: true
 ---
 

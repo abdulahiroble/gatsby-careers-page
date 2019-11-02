@@ -1,8 +1,8 @@
 ---
-title: 'Human Radio - 1'
+title: 'Front end developer'
 date: '2018-12-26T22:12:03.284Z'
-dept: 'human-resource'
-location: 'Mumbai'
+dept: 'Maersk'
+location: 'Copenhagen'
 published: true
 ---
 
