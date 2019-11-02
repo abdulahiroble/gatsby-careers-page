@@ -67,7 +67,10 @@ const Form = () => (
       APPLY NOW
     </h2> */}
     <form
-      netlify
+      name="contact"
+      method="post"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
       css={`
         padding-left: 6em;
         margin-right: 3rem;
