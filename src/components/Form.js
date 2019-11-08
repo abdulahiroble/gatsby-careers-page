@@ -66,11 +66,12 @@ const Form = () => (
     >
       APPLY NOW
     </h2> */}
-    <form
+    {/* <form
       name="contact"
       method="post"
       netlify-honeypot="bot-field"
       data-netlify="true"
+      action="/succes"
       css={`
         padding-left: 6em;
         margin-right: 3rem;
@@ -88,6 +89,71 @@ const Form = () => (
       <FileUpload />
       <FormField>
         <label htmlFor="cover-letter">Cover Letter</label>
+        <TextArea name="cover-letter" rows="8" />
+      </FormField>
+      <SubmitButton type="submit">Ansøg</SubmitButton>
+    </form> */}
+
+    <form
+      name="contact"
+      method="post"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+      style={{ paddingLeft: '5em', marginLeft: '3rem', width: '100%' }}
+      enctype="multipart/form-data"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="bot-field" />
+      <FormField>
+        <label htmlFor="name" style={{ margin: '0.5rem 0', display: 'block' }}>
+          Name
+        </label>
+        <Input
+          type="text"
+          name="name"
+          id="name"
+          style={{
+            width: '100%',
+            padding: '12px 20px',
+            margin: '8px 0',
+            boxSizing: 'border-box',
+          }}
+        />
+      </FormField>
+      <FormField>
+        <label htmlFor="telefon">telefon</label>
+        <Input
+          type="tel"
+          name="telefon"
+          id="telefon"
+          style={{
+            width: '100%',
+            padding: '12px 20px',
+            margin: '8px 0',
+            boxSizing: 'border-box',
+          }}
+        />
+      </FormField>
+      <FormField>
+        <label htmlFor="Email">Email</label>
+        <Input
+          type="email"
+          name="email"
+          id="email"
+          style={{
+            width: '100%',
+            padding: '12px 20px',
+            margin: '8px 0',
+            boxSizing: 'border-box',
+          }}
+        />
+      </FormField>
+      <FormField>
+        <label htmlFor="file">Upload Resume</label>
+        <input type="file" name="file" id="file" />
+      </FormField>
+      <FormField>
+        <label htmlFor="Cover Letter">Cover Letter</label>
         <TextArea name="cover-letter" rows="8" />
       </FormField>
       <SubmitButton type="submit">Apply</SubmitButton>

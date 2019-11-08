@@ -23,32 +23,44 @@ const Nav = styled.nav`
 const NavList = styled(NakedList)`
   display: flex;
 
-  ${media.tablet`
+  /* ${media.tablet`
     display: none;
+  `} */
+  
+  ${media.tablet`
+    display: flex;
+    justify-content: space-evenly
   `}
 `;
 
 const NavItems = styled.li`
   text-transform: uppercase;
   padding: 0 1rem;
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
 `;
 
-const StyledLogo = styled(Logo)`
-  height: 2rem;
-`;
+// const StyledLogo = styled(Logo)`
+//   height: 2rem;
+// `;
 
 const Header = ({ logo }) => (
   <Nav logo={logo}>
-    {logo && (
-      <Link to={'/'}>
-        <StyledLogo />
-      </Link>
-    )}
     <NavList>
-      <NavItems>About</NavItems>
-      <NavItems>Careers</NavItems>
-      <NavItems>Pricing</NavItems>
+      <NavItems>
+        <Link to="/" style={{ textDecoration: 'none' }}>
+          Home
+        </Link>
+      </NavItems>
+      <NavItems>
+        <Link to="/about" style={{ textDecoration: 'none' }}>
+          About
+        </Link>
+      </NavItems>
+      <NavItems>
+        <Link to="/postajob" style={{ textDecoration: 'none', backgroundColor: "#f01818", borderRadius: "20px", border: "1px solid #f01818", display: "inline-block", cursor: "pointer", color: "#fff", fontFamily: "Arial", fontSize: "12px", padding: "5px 20px", textShadow: "0px 1px 0px #2f6627" }}>
+          Post A Job!
+        </Link>
+      </NavItems>
     </NavList>
   </Nav>
 );
