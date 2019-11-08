@@ -3,7 +3,7 @@
   "private": true,
   "description": "A careers page with Gatsby",
   "version": "0.0.1",
-  "author": "Boy with Silver Wings <agney@outlook.in>",
+  "author": "abdulahi roble",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.76",

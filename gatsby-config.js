@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Aviato - Careers Page`,
+    title: `frontenddeveloperjobs.dk - Find your next role here`,
     description: `Create an Aviato Careers Page`,
     author: `@agneymenon`,
   },

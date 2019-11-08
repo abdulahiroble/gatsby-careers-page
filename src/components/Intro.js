@@ -57,7 +57,7 @@ const Intro = () => (
     </Presentation>
     <Content>
       <Logo />
-      <p>Front End Developer Job</p>
+      <p>Find your Next Front End Developer Job</p>
       <ActionButton>Join Us</ActionButton>
     </Content>
   </Container>

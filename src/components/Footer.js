@@ -19,10 +19,7 @@ const ExternalLink = styled.a`
 
 const Footer = () => (
   <Container>
-    <p>
-      © 2018, Built with{' '}
-      <ExternalLink href="https://www.gatsbyjs.org">Gatsby</ExternalLink>
-    </p>
+    <p>© 2019 frontenddeveloperjob.dk</p>
   </Container>
 );
 
