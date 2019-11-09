@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
 import FileUpload from './FileUpload';
@@ -41,7 +41,7 @@ const TextArea = styled.textarea`
   ${Field}
 `;
 
-const SubmitButton = styled.button`
+const SubmitButton = styled.a`
   background-color: #001dfb;
   color: #ffffff;
   padding: 1.2rem;
@@ -53,10 +53,19 @@ const SubmitButton = styled.button`
   box-shadow: none;
   margin: 4rem auto;
   display: block;
+  text-decoration: none;
+  text-align: center;
 `;
 
 const Form = () => (
   <Container>
+    {/* <SubmitButton
+      href="https://careers.penneo.com/jobs/155348-frontend-developer-senior"
+      target="_blank"
+      style={{ marginLeft: '6em' }}
+    >
+      Apply Now
+    </SubmitButton> */}
     {/* <h2
       css={`
         font-weight: 600;
@@ -93,8 +102,8 @@ const Form = () => (
       </FormField>
       <SubmitButton type="submit">Ansøg</SubmitButton>
     </form> */}
-
-    <form
+    <br />;
+    {/* <form
       name="contact"
       method="post"
       netlify-honeypot="bot-field"
@@ -104,6 +113,25 @@ const Form = () => (
     >
       <input type="hidden" name="form-name" value="contact" />
       <input type="hidden" name="bot-field" />
+      <FormField>
+        <label
+          htmlFor="company"
+          style={{ margin: '0.5rem 0', display: 'block' }}
+        >
+          Name of company you are applying to
+        </label>
+        <Input
+          type="text"
+          name="company"
+          id="company"
+          style={{
+            width: '100%',
+            padding: '12px 20px',
+            margin: '8px 0',
+            boxSizing: 'border-box',
+          }}
+        />
+      </FormField>
       <FormField>
         <label htmlFor="name" style={{ margin: '0.5rem 0', display: 'block' }}>
           Name
@@ -157,7 +185,7 @@ const Form = () => (
         <TextArea name="cover-letter" rows="8" />
       </FormField>
       <SubmitButton type="submit">Apply</SubmitButton>
-    </form>
+    </form> */}
   </Container>
 );
 

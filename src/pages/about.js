@@ -9,7 +9,7 @@ const AboutPage = () => (
     <h1>About</h1>
     <p>Hi</p>
     <p>
-      I'm Abdulahi and i'm a front end developer. I built
+      My name is Abdulahi and i'm a front end developer. I built
       frontenddeveloperjobs.dk because I wanted to have a place solely dedicated
       towards front end positions located in the Copenhagen area.
     </p>
@@ -22,8 +22,7 @@ const AboutPage = () => (
 
     <p>
       If you want to get in touch to give some feedback, discuss a partnership
-      opportunity, or talk about front end roles, email me at: <br/>
-
+      opportunity, or talk about front end roles, email me at: <br />
       <a href="mailto: abdulahi_2610@hotmail.com" target="_blank">
         abdulahi_2610@hotmail.com
       </a>
