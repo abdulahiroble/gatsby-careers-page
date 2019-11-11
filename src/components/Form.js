@@ -102,7 +102,7 @@ const Form = () => (
       </FormField>
       <SubmitButton type="submit">Ansøg</SubmitButton>
     </form> */}
-    <br />;
+
     {/* <form
       name="contact"
       method="post"

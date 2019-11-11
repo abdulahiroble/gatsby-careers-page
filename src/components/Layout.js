@@ -10,13 +10,19 @@ const GlobalStyles = createGlobalStyle`
   :root {
     font-size: 10px;
   }
-  html, body {
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+ body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0 0 100px;
+    /* margin: 0; */
     font-size: 1.6rem;
     color: rgba(0, 0, 0, 0.7);
     background-color: #fcfcfc;
-    height: 100%;
   }
 `;
 
