@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import GraphicsEl from '../images/graphics.svg';
 import Logo from '../images/logo.svg';
+import { Link } from 'gatsby';
 import media from '../utils/media';
 
 const Container = styled.div`
@@ -32,7 +33,7 @@ const Content = styled.div`
   flex: 1;
 `;
 
-const ActionButton = styled.button`
+const ActionButton = styled.a`
   background-color: #ff4133;
   color: #ffffff;
   padding: 1.2rem;
@@ -44,6 +45,7 @@ const ActionButton = styled.button`
   box-shadow: none;
   font-weight: 500;
   margin-top: 12rem;
+  text-decoration: none;
 
   ${media.phone`
     margin-top: 4rem;
@@ -56,9 +58,13 @@ const Intro = () => (
       <GraphicsEl />
     </Presentation>
     <Content>
-      <Logo />
-      <p>Find your Next Front End Developer Job</p>
-      <ActionButton>Join Us</ActionButton>
+      {/* <Logo /> */}
+      <h1>Find your next Front End Developer Job</h1>
+      {/* <ActionButton>Latest Job Post</ActionButton> */}
+      <br />
+      <ActionButton href="https://priceless-tesla-fe7f4f.netlify.com/Penneo/penneo/">
+        Latest Job Post
+      </ActionButton>
     </Content>
   </Container>
 );

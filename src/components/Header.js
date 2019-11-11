@@ -47,17 +47,32 @@ const Header = ({ logo }) => (
   <Nav logo={logo}>
     <NavList>
       <NavItems>
-        <Link to="/" style={{ textDecoration: 'none' }}>
+        <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
           Home
         </Link>
       </NavItems>
       <NavItems>
-        <Link to="/about" style={{ textDecoration: 'none' }}>
+        <Link to="/about" style={{ textDecoration: 'none', color: 'black' }}>
           About
         </Link>
       </NavItems>
       <NavItems>
-        <Link to="/postajob" style={{ textDecoration: 'none', backgroundColor: "#f01818", borderRadius: "20px", border: "1px solid #f01818", display: "inline-block", cursor: "pointer", color: "#fff", fontFamily: "Arial", fontSize: "12px", padding: "5px 20px", textShadow: "0px 1px 0px #2f6627" }}>
+        <Link
+          to="/postajob"
+          style={{
+            textDecoration: 'none',
+            backgroundColor: '#f01818',
+            borderRadius: '20px',
+            border: '1px solid #f01818',
+            display: 'inline-block',
+            cursor: 'pointer',
+            color: '#fff',
+            fontFamily: 'Arial',
+            fontSize: '12px',
+            padding: '5px 20px',
+            textShadow: '0px 1px 0px #2f6627',
+          }}
+        >
           Post A Job!
         </Link>
       </NavItems>
