@@ -62,7 +62,7 @@ const Intro = () => (
       <h1>Find your next Front End Developer Job</h1>
       {/* <ActionButton>Latest Job Post</ActionButton> */}
       <br />
-      <ActionButton href="https://priceless-tesla-fe7f4f.netlify.com/Penneo/penneo/">
+      <ActionButton href="https://frontenddeveloperjobs.dk/Planday/planday/">
         Latest Job Post
       </ActionButton>
     </Content>
