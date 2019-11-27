@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
+import CookieConsent from 'react-cookie-consent';
 
 const Container = styled.footer`
   /* background-color: #000000;
@@ -45,7 +47,24 @@ const Container = styled.footer`
 
 const Footer = () => (
   <Container>
-    <p>© 2019 frontenddeveloperjob.dk</p>
+    <p>© 2019 frontenddeveloperjobs.dk</p>
+    <CookieConsent
+      location="bottom"
+      buttonText="Accept Cookies"
+      cookieName="myAwesomeCookieName2"
+      style={{ background: '#2B373B' }}
+      buttonStyle={{ color: '#4e503b', fontSize: '13px' }}
+      expires={150}
+    >
+      We use cookies to make our website work properly, personalize content and
+      advertising, offer features in relation to social media and analyzing our
+      traffic. We also share information regarding your use of our website with
+      analytical partners.
+      <Link to="/cookies" style={{ textDecoration: 'none', color: 'yellow' }}>
+        {' '}
+        Read more
+      </Link>
+    </CookieConsent>
   </Container>
 );
 

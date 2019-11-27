@@ -1,12 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: `frontenddeveloperjobs.dk - Find your next role here`,
-    description: `Front end developer job listing`,
-    author: `@agneymenon`,
+    title: `frontenddeveloperjobs - Find your next role in Copenhagen`,
+    description: `Front end developer job listing in Copenhagen`,
+    siteUrl: 'http://frontenddeveloperjobs.dk/',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-152648953-1',
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,8 +24,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
+        name: `content`,
         path: `${__dirname}/src/content`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -41,7 +55,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 750,
+              linkImagesToOriginal: false,
               showCaptions: true,
             },
           },
