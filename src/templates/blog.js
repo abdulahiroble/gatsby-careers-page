@@ -32,7 +32,7 @@ const Content = styled.div`
 
   padding-left: 1em;
   margin-right: 1rem;
-  width: 90%;
+  width: 93%;
   background-color: #ffffff;
 
   h3 {
@@ -54,13 +54,7 @@ const Blog = props => {
       >
         {props.data.markdownRemark.frontmatter.title}
       </h1>
-      <p
-        style={{
-          paddingLeft: '1em',
-        }}
-      >
-        {props.data.markdownRemark.frontmatter.date}
-      </p>
+      <br />
       <Container>
         <Content
           dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
