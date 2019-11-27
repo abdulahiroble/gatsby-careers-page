@@ -21,7 +21,7 @@ const BlogPage = () => {
             }
             frontmatter {
               title
-              date
+              date(formatString: "MMMM DD, YYYY")
             }
           }
         }
@@ -51,11 +51,6 @@ const BlogPage = () => {
           );
         })}
       </h3>
-      {/* <div>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Link to={node.fields.slug}>Netlify</Link>
-        ))}
-      </div> */}
     </Layout>
   );
 };
