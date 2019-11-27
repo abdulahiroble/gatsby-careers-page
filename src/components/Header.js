@@ -11,7 +11,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: ${props => (props.logo ? 'space-between' : 'flex-end')};
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 1rem;
   height: 6rem;
   background-color: #ffffff;
 
