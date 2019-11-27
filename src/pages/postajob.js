@@ -18,8 +18,7 @@ const PostAjobPage = () => (
         paddingLeft: '1em',
       }}
     >
-      Companies can post job positions for Front End Developer roles for only
-      350 DKK.
+      Companies can post job positions for Front End Developer roles.
     </p>
 
     <p

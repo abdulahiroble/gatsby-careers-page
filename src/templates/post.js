@@ -11,7 +11,7 @@ const Title = styled.h1`
   letter-spacing: 1.2;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   padding-bottom: 8rem;
 `;
 

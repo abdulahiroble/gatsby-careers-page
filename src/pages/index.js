@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO
         title="frontenddeveloperjobs.dk"
-        keywords={[`front end developer`, `copenhagen`, `careers`]}
+        keywords={[`front end developer jobs`, `copenhagen`, `careers`]}
       />
       <Intro />
       {posts && <Listing data={posts} />}

@@ -1,9 +1,10 @@
 ---
 title: 'Front-end Developer'
-date: '2019-11-15T22:12:03.284Z'
+date: '2019-11-15'
 dept: 'Planday'
 location: 'Copenhagen'
 published: true
+test: false
 ---
 
 ## Description

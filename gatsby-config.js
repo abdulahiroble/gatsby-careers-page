@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `frontenddeveloperjobs - Find your next role in Copenhagen`,
-    description: `Front end developer job listing`,
+    description: `Front end developer job listing in Copenhagen`,
     siteUrl: 'http://frontenddeveloperjobs.dk/',
   },
   plugins: [
@@ -28,13 +28,13 @@ module.exports = {
         path: `${__dirname}/src/content`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `posts`,
-    //     path: `${__dirname}/src/content/posts`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -55,7 +55,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 750,
+              linkImagesToOriginal: false,
               showCaptions: true,
             },
           },

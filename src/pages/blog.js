@@ -1,19 +1,63 @@
 import React from 'react';
-
+import styled from 'styled-components';
+import { graphql, useStaticQuery } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
+import { Link } from 'gatsby';
 
-const BlogPage = () => (
-  <Layout>
-    <SEO title="Blog" />
-    <h1
-      style={{
-        paddingLeft: '10px',
-      }}
-    >
-      Blog
-    </h1>
-  </Layout>
-);
+const BlogButton = styled(Link)`
+  text-decoration: none;
+  color: #000;
+`;
+
+const BlogPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark(filter: { frontmatter: { test: { eq: true } } }) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              date
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  return (
+    <Layout>
+      <SEO title="Blog" />
+      <h1
+        style={{
+          paddingLeft: '10px',
+        }}
+      >
+        Blog
+      </h1>
+      <h3>
+        {data.allMarkdownRemark.edges.map(edge => {
+          return (
+            <ul style={{ listStyle: 'none' }}>
+              <BlogButton to={`/blog/${edge.node.fields.slug}`}>
+                <li>{edge.node.frontmatter.title}</li>
+              </BlogButton>
+              <p>{edge.node.frontmatter.date}</p>
+            </ul>
+          );
+        })}
+      </h3>
+      {/* <div>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <Link to={node.fields.slug}>Netlify</Link>
+        ))}
+      </div> */}
+    </Layout>
+  );
+};
 
 export default BlogPage;
