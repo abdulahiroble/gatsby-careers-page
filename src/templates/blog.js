@@ -44,8 +44,23 @@ const Content = styled.div`
 const Blog = props => {
   return (
     <Layout>
-      <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-      <p>{props.data.markdownRemark.frontmatter.date}</p>
+      <h1
+        style={{
+          fontSize: '2.5rem',
+          letterSpacing: '1.2',
+          textTransform: 'uppercase',
+          textAlign: 'center',
+        }}
+      >
+        {props.data.markdownRemark.frontmatter.title}
+      </h1>
+      <p
+        style={{
+          paddingLeft: '1em',
+        }}
+      >
+        {props.data.markdownRemark.frontmatter.date}
+      </p>
       <Container>
         <Content
           dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
