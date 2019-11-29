@@ -4,6 +4,8 @@ date: '2019-10-17'
 test: true
 ---
 
+![](../images/netlify.png)
+
 There was a time when hosting a website used to be complicated and quite expensive. Luckily we now have different services like Netlify, which makes deploying websites a seamless experience.
 
 Just to be transparent, this post is not sponsored by Netlify or anything. I just really like their service and have published a good amount of sites on their platform.
