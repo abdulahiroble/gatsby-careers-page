@@ -62,8 +62,8 @@ const Intro = () => (
       <h1>Find din næste webudvikler job</h1>
       {/* <ActionButton>Latest Job Post</ActionButton> */}
       <br />
-      <ActionButton href="https://frontenddeveloperjobs.dk/Planday/planday/">
-        Seneste jobopslag
+      <ActionButton href="https://frontenddeveloperjobs.dk/NewBanking">
+        Latest Job Post
       </ActionButton>
     </Content>
   </Container>
