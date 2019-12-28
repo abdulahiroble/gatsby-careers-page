@@ -11,33 +11,23 @@ const AboutPage = () => (
         paddingLeft: '10px',
       }}
     >
-      About
+      Om os
     </h1>
     <p
       style={{
         paddingLeft: '1em',
       }}
     >
-      Hi
+      Hey
     </p>
     <p
       style={{
         paddingLeft: '1em',
       }}
     >
-      My name is Abdulahi and i'm a front end developer. I built
-      frontenddeveloperjobs.dk because I wanted to have a place solely dedicated
-      towards front end positions located in the Copenhagen area.
-    </p>
-
-    <p
-      style={{
-        paddingLeft: '1em',
-      }}
-    >
-      When I was looking for a job back in 2018, I grew tired of filtering
-      through back end and full stack developer jobs. And I was only interested
-      in <strong>Front end roles</strong>.
+      Mit navn er Abdulahi og jeg er en frontend-webudvikler. Jeg byggede       
+      frontenddeveloperjobs.dk fordi jeg ville have et sted udelukkende
+      dedikeret mod frontend positioner beliggende i Københavnsområdet.
     </p>
 
     <p
@@ -45,8 +35,18 @@ const AboutPage = () => (
         paddingLeft: '1em',
       }}
     >
-      If you want to get in touch to give some feedback, discuss a partnership
-      opportunity, or talk about web development in general, email me at: <br />
+      Da jeg ledte efter et job tilbage i 2018, blev jeg træt af at filtrere
+      igennem back end og fuld stack udvikler stillinger. Det skyldes at jeg kun
+      var interesseret i stillinger som omhandlende frontend.
+    </p>
+
+    <p
+      style={{
+        paddingLeft: '1em',
+      }}
+    >
+      Hvis du vil komme i kontakt for at give feedback eller andet kan du sende
+      en mail: <br />
       <a href="mailto: abdulahi_2610@hotmail.com" target="_blank">
         abdulahi_2610@hotmail.com
       </a>
@@ -57,7 +57,7 @@ const AboutPage = () => (
         paddingLeft: '1em',
       }}
     >
-      You can also check some of my other work here:{' '}
+      Tjek også projekter og andet jeg har arbejdet med:{' '}
       <a href="https://linktr.ee/abdulahicodes" target="_blank">
         abdulahicodes
       </a>
