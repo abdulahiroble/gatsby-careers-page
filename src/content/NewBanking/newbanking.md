@@ -7,37 +7,36 @@ published: true
 test: false
 ---
 
-Here is your chance to join a fast-moving, innovative and young Danish RegTech startup!
+Her er din chance for at deltage i en hurtigt bevægende, innovativ og ung dansk RegTech-opstart!
 
-## What are we looking for?
+## Hvad leder vi efter?
 
-We seek a full-time Frontend Developer to help us develop the frontend applications of our sleek NewBanking Platform according to our product vision and the needs of our customers.
+Vi søger en Frontend-udvikler på fuld tid til at hjælpe os med at udvikle frontend-applikationer på vores slanke NewBanking-platform i henhold til vores produktvision og vores kunders behov.
 
-## What can we offer?
+## Hvad kan vi tilbyde?
 
-You get to work with smart and ambitious people on greenfield projects using a cutting-edge tech stack and cloud-based infrastructure. You get to be part of a successful startup adventure while working from a top-notch location at Copenhagen Fintech Labs (Christianshavn).
+Du kommer til at arbejde med smarte og ambitiøse mennesker på greenfield-projekter ved hjælp af en avanceret tech-stak og skybaseret infrastruktur. Du får være en del af et vellykket opstarteventyr, mens du arbejder fra et førsteklasses sted på Copenhagen Fintech Labs (Christianshavn).
 
-We offer a competitive salary, a very comfortable and stimulating work environment, plenty of exciting challenges to accelerate your personal learning and growth
-and excellent opportunities to network and rub shoulders with world-class software vendors, high-end customers, and new fintech players in the financial sector.
+Vi tilbyder en konkurrencedygtig løn, et meget behageligt og stimulerende arbejdsmiljø, masser af spændende udfordringer til at fremskynde din personlige læring og vækst og fremragende muligheder for at få netværk og gnide skuldre sammen med softwareleverandører i verdensklasse, avancerede kunder og nye fintech-spillere i den finansielle sektor.
 
-### Your profile:
+### Din Profil:
 
-- You are open, smart, ambitious, agile and self-motivated. And a fast learner.
-- You have a true talent for software development, and you want to be part of a world-class team.
-- You are 25+ years old and have 3+ years of professional experience with frontend development.
-- You have a passion for user friendly, high-performance, scalable, robust and secure solutions.
-- You speak JavaScript (ES2015+), HTML5, and CSS3 fluently. You have a broad knowledge of JS modules, and you have had the luxury of architecting and developing a system or application from scratch.
-- It is a plus if you have previous experience with a JavaScript reflexive framework such as Vue, React or Angular 2. And even more of a plus if you know Linux and Git.
-- You have some operational experience and understand the importance of system monitoring, alerting, and testing.
-- You have an entrepreneurial mindset, and (would) love to work in a fast-paced startup environment.
+- Du er åben, smart, ambitiøs, smidig og selvmotiveret. Og hurtig til at lære fra dig.
+- Du har et ægte talent til softwareudvikling, og du vil være en del af et hold i verdensklasse.
+- Du er 25+ år gammel og har 3+ års erhvervserfaring med frontend-udvikling.
+- Du har en passion for brugervenlige, højtydende, skalerbare, robuste og sikre løsninger.
+- Du taler flydende JavaScript (ES2015 +), HTML5 og CSS3. Du har et bredt kendskab til JS-moduler, og du har haft den luksus at arkivere og udvikle et system eller en applikation fra bunden af.
+- Det er et plus, hvis du har tidligere erfaring med et JavaScript-framework som Vue, React eller Angular 2. Og endnu mere af et plus, hvis du kender Linux og Git.
+- Du har en vis operationel erfaring og forstår vigtigheden af ​​systemovervågning, alarmering og test.
+- Du har en iværksættertankegang, og (ville) elske at arbejde i et hurtigt tempo i startup-miljøet.
 
-So, do you have what it takes? If so, apply below. Make sure your CV is in English and includes descriptions of significant projects and your role in them. Start date? ASAP! Interviews will be conducted on an ongoing basis, so apply as soon as possible.
+Så har du hvad det kræver? I så fald skal du anvende nedenfor. Sørg for, at dit CV er på engelsk og inkluderer beskrivelser af vigtige projekter og din rolle i dem. Start dato? ASAP! Interviews gennemføres løbende, så ansøg så hurtigt som muligt.
 
-## About Us
+## Om os
 
-NewBanking develops and operates a patent-pending identity management platform that offers its customers a significantly better and smarter way to manage the personal data of their customers, for example as part of customer due diligence.
+NewBanking udvikler og driver en patentsøgt identitetsstyringsplatform, der tilbyder sine kunder en markant bedre og smartere måde at styre deres kunders personlige data, for eksempel som en del af kundens due diligence.
 
-NewBanking provides consumers with a platform for managing and sharing their personal data with people and organisations they trust, while retraining full ownership of their data.
+NewBanking giver forbrugerne en platform til styring og deling af deres personlige data med mennesker og organisationer, de har tillid til, mens de omskolder det fulde ejerskab af deres data.
 
 <a
       href="https://newbanking.com/careers/frontend-developer/"
@@ -56,7 +55,7 @@ NewBanking provides consumers with a platform for managing and sharing their per
   text-decoration: none;
   text-align: center;"
     >
-Apply To This Company
+Ansøg dette firma
 </a>
 
-<em>\*Once you click apply, you will then be redirected to the companys website where you can finish you application</em>
+<em>\*Når du klikker ansøg vil du blive videresendt til virksomheden hvor du kan gennemfører din ansøgning.</em>

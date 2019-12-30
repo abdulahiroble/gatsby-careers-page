@@ -5,20 +5,20 @@ import SEO from '../components/seo';
 
 const PostAjobPage = () => (
   <Layout>
-    <SEO title="Post a job" />
+    <SEO title="Post et job" />
     <h1
       style={{
         paddingLeft: '10px',
       }}
     >
-      Post A Job
+      JOBOPSLAG
     </h1>
     <p
       style={{
         paddingLeft: '1em',
       }}
     >
-      Companies can post job positions for Front End Developer roles.
+      Virksomheder kan placere jobstillinger i webudvikling.
     </p>
 
     <p
@@ -26,7 +26,7 @@ const PostAjobPage = () => (
         paddingLeft: '1em',
       }}
     >
-      If interested then you can email me at <br />{' '}
+      Interresede kan sende en e-mail <br />{' '}
       <a href="mailto: abdulahi_2610@hotmail.com" target="_blank">
         abdulahi_2610@hotmail.com
       </a>{' '}

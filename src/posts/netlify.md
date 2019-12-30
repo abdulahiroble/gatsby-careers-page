@@ -1,62 +1,58 @@
 ---
-title: '5 Reasons why you should use Netlify as a Front end developer'
+title: '5 Årsager, hvorfor du skal bruge netlify som webudvikler'
 date: '2019-10-17'
 test: true
 ---
 
 ![](../images/netlify.png)
 
-There was a time when hosting a website used to be complicated and quite expensive. Luckily we now have different services like Netlify, which makes deploying websites a seamless experience.
+Der var en tid, hvor hosting af et websted plejede at være kompliceret og dyrt. Heldigvis har vi nu forskellige tjenester som Netlify, hvilket gør implementering af nye hjemmesider nu er meget lettere.
 
-Just to be transparent, this post is not sponsored by Netlify or anything. I just really like their service and have published a good amount of sites on their platform.
+## 1. Hosting & Pris
 
-And so with that in mind, here are five reasons why you might want to consider using Netlify the next time you want to publish a static site.
+Det bedste ved Netlify er de forskellige planer og hvad de tilbyder med hensyn til frynsegoder. For eksempel har de en startplan, der tilbyder:
 
-## 1. Hosting & Price
+- Brugerdefinerede domæner & HTTPS
+- Lynhurtig Git-integration
+- Kontinuerlig implementering
+- Se previews på din hjemmside
 
-Properly the best thing about Netlify is its different plans and what they offer in terms of perks. For example, they have a starter plan which offers:
+Og de samlede omkostninger for alt det, der kommer ned på nul. Hosting foregår via et CDN, der booster websteds ydeevne markant.
 
-- Custom domains & HTTPS
-- Instant Git integration
-- Continuous deployment
-- Deploy previews
+## 2. Brugervenligt dashboard
 
-And the total cost of all that comes down to zero. Hosting is done through a CDN, which speeds up website performance significantly.
-
-## 2. Easy to use dashboard
-
-The dashboard gives you a good overview of everything from deploys to previews, and it is just overall easy to navigate if you want to make some changes on your site.
+Dashboardet giver dig et godt overblik over alt fra deploys til previews, og det er bare generelt let at navigere, hvis du vil foretage nogle ændringer på dit websted.
 
 ![](../images/dashboard.png)
 
-## 3. Great documentation
+## 3. Fantastisk dokumentation
 
-Netlifys documentation is very comprehensive and easy to understand. They have sections that range from configuring builds to setting up your custom domain, which I from the beginning had some problems with, but thanks to the documentation were able to resolve quickly.
+Netlifys dokumentation er meget omfattende og let at forstå. De har sektioner, der spænder fra konfigurering af builds til opsætning af dit brugerdefinerede domæne, som jeg fra starten havde nogle problemer med, men takket være dokumentationen kunne løse hurtigt.
 
-Also, the documentation has recently been updated so that it now becomes even more self-explanatory. You can check it out here:
+Dokumentationen er også for nylig blevet opdateret, så den nu bliver endnu mere selvforklarende. Du kan tjekke det her:
 
 <a href="https://docs.netlify.com/#get-started" target="_blank" rel="noopener noreferrer">https://docs.netlify.com/#get-started</a>
 
-## 4. Form submission
+## 4. Formular
 
-Setting up a form using Netlify is a straightforward process that includes nothing more than adding this piece of code at the beginning of your form tag:
+Opsætning af en formular ved hjælp af Netlify er en ligetil proces, der ikke indeholder andet end at tilføje dette stykke kode i begyndelsen af ​​dit formularmærke:
 
 ![](../images/carbon.png)
 
-Previously if you wanted to add a form to your website, you had to use server-side code like PHP or JavaScript. It also comes with a default success page after the form has been submitted, or you can create your own one.
+Hvis du tidligere ønskede at tilføje en formular til dit websted, var du nødt til at bruge serversiden kode som PHP eller JavaScript. Det leveres også med en standardsucceside, når formen er blevet sendt, eller du kan lave din egen.
 
 All successful form submissions will show up in your dashboard, and you can even integrate it with your email using Zappier, which is an integration tool.
 
-With the starter plan, you can make up to 100 form submissions per month, which should be enough if it is just your portfolio site. If not, then you can always upgrade to a level 1 account, but that does cost, however.
+Med startplanen kan du oprette 100 formularindgivelser pr. Måned, hvilket skulle være nok, hvis det kun er dit porteføljewebsted. Hvis ikke, kan du altid opgradere til en niveau 1-konto, men det koster dog.
 
-## 5. Continuous deployment
+## 5. Kontinuerlig implementering
 
-Another great feature is its continuous deployment, which links to your repository, and every time you push your code, Netlify runs a build tool and deploys the result.
+En anden stor funktion er dens kontinuerlige implementering, der linker til dit lager, og hver gang du skubber til din kode, kører Netlify et build-værktøj og udretter resultatet.
 
 ![](../images/github.png)
 
-There is still a lot more to cover, but instead of saying it here, I would much rather have you go out and explore it for yourself. Maybe you can start by publishing your portfolio site on Netlify like I did the first time.
+Der er stadig meget mere at dække, men i stedet for at sige det her, vil jeg meget hellere have dig til at gå ud og udforske det selv. Måske kan du starte med at offentliggøre dit portfolio-site på Netlify, som jeg gjorde første gang.
 
-As for myself, I still feel like I barely scratched the surface in terms of trying out all of the features Netlify has to offer.
+Med hensyn til mig selv føler jeg stadig, at jeg næsten ikke har ridset overfladen med hensyn til at prøve alle de funktioner, Netlify har at tilbyde.
 
-One feature I am particularly interested in trying out is split testing, which lets me test different designs of my portfolio site by serving multiple branch deploys.
+En funktion, som jeg er specielt interesseret i at prøve, er split-testing, som lader mig teste forskellige designs af min porteføljens websted ved at betjene flere branches som findes på min Github.
