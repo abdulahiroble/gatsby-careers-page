@@ -11,7 +11,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: ${props => (props.logo ? 'space-between' : 'flex-end')};
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 0rem;
   height: 6rem;
   background-color: #ffffff;
 
@@ -48,12 +48,12 @@ const Header = ({ logo }) => (
     <NavList>
       <NavItems>
         <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
-          Home
+          hjem
         </Link>
       </NavItems>
       <NavItems>
         <Link to="/about" style={{ textDecoration: 'none', color: 'black' }}>
-          About
+          om
         </Link>
       </NavItems>
       <NavItems>
@@ -78,7 +78,7 @@ const Header = ({ logo }) => (
             textShadow: '0px 1px 0px #2f6627',
           }}
         >
-          Post A Job!
+          POST ET JOB
         </Link>
       </NavItems>
     </NavList>

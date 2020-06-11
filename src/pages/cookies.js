@@ -18,10 +18,10 @@ const CookiesPage = () => (
         paddingLeft: '1em',
       }}
     >
-      This website uses "cookies". Cookies are a text file stored on your
-      computer, mobile phone, tablet or equivalent for the purpose of
-      recognizing it, remembering settings, performing statistics and targeting
-      ads. Cookies cannot contain malicious code such as viruses.
+      Hjemmesiden anvender "cookies". Cookies er en tekstfil, der gemmes på din
+      computer, mobiltelefon, tablet eller tilsvarende med det formål at
+      genkende den, huske indstillinger, udfører statistik og målrette annoncer.
+      Cookies kan ikke indeholde skadelig kode som f.eks virus.
     </p>
 
     <p
@@ -29,7 +29,7 @@ const CookiesPage = () => (
         paddingLeft: '1em',
       }}
     >
-      You can delete or block cookies. See how here:{' '}
+      Du kan slette eller blokerer cookies. Se hvordan her{' '}
       <a href="http://minecookies.org/cookiehandtering">
         http://minecookies.org/cookiehandtering
       </a>
@@ -40,7 +40,7 @@ const CookiesPage = () => (
         paddingLeft: '10px',
       }}
     >
-      Important Cookies
+      Nødvendige cookies
     </h2>
 
     <p
@@ -48,8 +48,8 @@ const CookiesPage = () => (
         paddingLeft: '1em',
       }}
     >
-      Some cookies are required for the website to work. The website does not
-      work properly without these cookies and they are enabled by default.
+      Nogle cookies kræves for at hjemmesiden kan fungere. Hjemmesiden fungerer
+      ikke korrekt uden disse cookies, og de er som standard aktiveret.
     </p>
 
     <h2
@@ -65,12 +65,12 @@ const CookiesPage = () => (
         paddingLeft: '1em',
       }}
     >
-      These cookies allow us to count visitors and traffic sources so that we
-      can measure and improve the performance of our website. They help us
-      figure out which pages are most and least popular as well as how visitors
-      move around the page. <br />
+      Disse cookies giver os mulighed for at tælle besøgende og trafikkilder, så
+      vi kan måle og forbedre ydeevnen af vores hjemmeside. De hjælper os med at
+      finde ud af, hvilke sider der er mest og mindst populære samt hvordan de
+      besøgende bevæger sig på siden. <br />
       <a href="http://tools.google.com/dlpage/gaoptout">
-        Click here to opt out cookies from Google Analytics.
+        Klik her for at fravælge cookies fra Google Analytics.
       </a>
     </p>
   </Layout>

@@ -56,7 +56,7 @@ const Accordion = ({ data }) =>
                   <JobTitle>{node.frontmatter.title}</JobTitle>
                   <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                 </JobDescription>
-                <JobButton to={node.fields.slug}>Read More</JobButton>
+                <JobButton to={node.fields.slug}>Læs mere</JobButton>
               </JobPost>
             ))}
           </AccordionItemBody>

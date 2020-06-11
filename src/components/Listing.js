@@ -33,7 +33,7 @@ const Content = styled.div`
 
 const Listing = ({ data }) => (
   <Container>
-    <Title>Find Your next Position</Title>
+    <Title>Find din næste stilling</Title>
     <Content>
       <Accordion data={data} />
     </Content>

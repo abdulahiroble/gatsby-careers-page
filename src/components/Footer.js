@@ -56,13 +56,13 @@ const Footer = () => (
       buttonStyle={{ color: '#4e503b', fontSize: '13px' }}
       expires={150}
     >
-      We use cookies to make our website work properly, personalize content and
-      advertising, offer features in relation to social media and analyzing our
-      traffic. We also share information regarding your use of our website with
-      analytical partners.
+      Vi bruger cookies til, at få vores hjemmeside til at virke ordentligt,
+      personalisere indhold og reklamer, tilbyde funktioner i forhold til
+      sociale medier og analysere vores traffik. Vi deler også information
+      vedrørende din brug af vores hjemmeside med analytiske samarbejdspartnere
       <Link to="/cookies" style={{ textDecoration: 'none', color: 'yellow' }}>
         {' '}
-        Read more
+        Læs mere om cookies
       </Link>
     </CookieConsent>
   </Container>
