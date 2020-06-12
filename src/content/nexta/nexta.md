@@ -1,10 +1,10 @@
+---
 title: 'Senior Frontend Developer'
 date: '2019-06-11'
 dept: 'Nexta'
 location: 'Copenhagen'
 published: true
 test: false
-
 ---
 
 Are you looking for an exciting position in a dynamic, evolving, and fast-growing company with the potential to learn? We are an international company developing a highly scalable and automated omnichannel advertising SaaS platform.
