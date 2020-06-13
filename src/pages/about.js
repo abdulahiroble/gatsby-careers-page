@@ -61,6 +61,7 @@ const AboutPage = () => (
       <a href="https://linktr.ee/abdulahicodes" target="_blank">
         abdulahicodes
       </a>
+      <a href="https://webudviklerjob.dk">Webudvikler</a>
     </p>
   </Layout>
 );
